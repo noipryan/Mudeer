@@ -252,6 +252,8 @@ registerShortcut("Mudeer Three-Quarters Right", prefix+"Three-Quarters Right", "
 	move(workspace, 4,1,3,0)})
 registerShortcut("Mudeer Half Right", prefix+"Half Right", "Meta+Shift+v", function () {
 	move(workspace, 4,2,2,0)})
+registerShortcut("Mudeer Half Middle", prefix+"Half Middle", "Meta+b", function () {
+  move(workspace, 4,1,2,0)})
 
 // Screen By Multiple Quarters Top
 registerShortcut("Mudeer Half Left Top", prefix+"Half Left Top", "Meta+Shift+Ctrl+z", function () {
