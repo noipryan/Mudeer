@@ -272,3 +272,7 @@ registerShortcut("Mudeer Three-Quarters Right Bottom", prefix+"Three-Quarters Ri
 	move(workspace, 4,1,3,2)})
 registerShortcut("Mudeer Half Right Bottom", prefix+"Half Right Bottom", "Meta+Shift+Alt+v", function () {
 	move(workspace, 4,2,2,2)})
+
+// MAximize with borders
+registerShortcut("Mudeer Maximize", prefix+"Maximize", "Meta+Ctrl+f", function () {
+	move(workspace, 1,0,1,0)})
