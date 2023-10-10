@@ -1,9 +1,9 @@
 #!/bin/bash
 #
 #
-cd $HOME/Apps/Mudeer
+#cd $HOME/Apps/Mudeer
 
-kpackagetool5 -i mudeer
+kpackagetool5 -i Mudeer
 
 mkdir -p $HOME/.local/share/kservices5
 
